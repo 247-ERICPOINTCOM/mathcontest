@@ -8,7 +8,7 @@
     <title>quizdemo</title>
 
 
-    //countdown for 20 minutes
+    //countdown for 20 minutes - not working, ignore for now
     <script language="javascript">
         function initCountdown(e) {
             var min,
@@ -57,7 +57,7 @@
                 }
             }
         }
-    </script>
+    </script> //countdown for 20 minutes - not working, ignore for now
 
 </head>
 
