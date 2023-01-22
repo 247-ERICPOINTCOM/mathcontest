@@ -1,0 +1,18 @@
+#footer{
+    background-color: rgb(65, 64, 64);
+    text-align: center ;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    color: white;
+    padding: 40px 0px 20px 0px;
+    width: 100%;
+    position: fixed;
+
+
+}
+
+#footer a{
+  color: white;
+}
+

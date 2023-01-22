@@ -1,0 +1,15 @@
+body {   
+    background: url("img/decoration.svg") top right no-repeat, url("img/quiz.png") no-repeat;
+    background-attachment: fixed, fixed;
+    background-size: 150px 100%, cover ;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
+a {
+    text-decoration: none;
+}
+

@@ -1,0 +1,112 @@
+body {
+    background: url("img/quiz.png") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*      quiz-instruction  */
+.grid{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 150px auto;
+    padding-left: 350px;
+    padding-right: 100px;
+    padding-top: 40px;
+    gap:25px;
+    position: relative;
+
+}
+.heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.message {
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    font-weight:lighter;
+    letter-spacing: 0.02em;
+    line-height: 28px;
+    color: #000000;
+
+}
+/* all about button done!! */
+
+.header-button button {
+    padding: 8px 25px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+    background: #4682B4;
+    color: #ffffff;
+    
+    font-family: 'Poppins';
+    letter-spacing: 0.05em;
+    font-size: 15px;
+
+}
+
+
+.header-button button:hover,
+.return-button button:hover {
+    background: #23415B;
+    color: #ffffff;
+}
+
+.header-button {
+    justify-self: right;
+}
+.return-button {
+    justify-self: center;
+}
+
+.return-button button {
+
+    padding: 10px 27px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+
+    background: #4682B4;
+    color: #FFFFFF;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+ /*         FOOTER          */
+ #footer {
+     background-color: rgb(65, 64, 64);
+     text-align: center;
+     bottom: 0px;
+     left: 0px;
+     right: 0px;
+     color: white;
+     padding: 40px 0px 20px 0px;
+     width: 100%;
+     position: fixed;
+ }
+
+ #footer a {
+     color: white;
+ }
+

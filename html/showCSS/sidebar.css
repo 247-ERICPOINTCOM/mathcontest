@@ -1,0 +1,57 @@
+
+.logo-container {
+    position: fixed;
+    width: 200px;   
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 29px;
+    width: 55%;   
+}
+
+.sidebar {
+    background: #4682B4;
+    width: 280px;
+    position: fixed;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    
+    top: 0;
+    bottom: 0;
+    left:0 ;
+
+
+}
+
+.text:hover {
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
+}
+
+.text {
+    padding: 8px 25px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar-list{
+    padding-top: 150px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+.sidebar-text {
+    display: flex;
+    justify-content: left;
+
+}
+
