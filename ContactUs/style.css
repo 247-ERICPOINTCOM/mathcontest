@@ -1,0 +1,272 @@
+.logo {
+  position: absolute;
+  top: 1vh;
+  left: 1vw;
+  width: 25vh;
+  height: 10vw;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 10vw;
+    height: 10vw;
+  }
+}
+
+nav {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-left: 20vw;
+}
+
+@media (max-width: 600px) {
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
+
+/*
+.line {
+  position: absolute; 
+  left: 20vw;
+  top: 25vh;
+  bottom: -3vh;
+  width: 5px;
+  background-color: black;
+}
+
+@media (max-width: 600px) {
+  .line {
+    width: 2px; 
+     height: 50%
+  }
+}
+*/
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav li {  
+  padding: 0 20px;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+nav li:hover {
+ background-color: black;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.dashboard {
+  margin-left: 40px;
+}
+
+
+@media (min-width: 768px) {
+  nav {
+    width: 80vw;
+    height: 5vh;
+  }
+}
+
+@media (max-width: 600px) {
+  nav li {
+    font-size: 1rem;
+  }
+}
+
+.card-container {
+  font-family: 'Open Sans', sans-serif;
+  width: 660px;  
+  margin-left: 30vw;
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #ccc;
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #ccc;
+    width:100%;
+  }
+}
+
+ .image-container {  
+    width: 100%;
+    overflow: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .email, .phone, .query{
+    width: 15%;
+  }
+}
+
+.email, .phone, .query{
+  display: flex;  
+  margin-bottom: 50px;
+  margin-left: 30px;
+  
+}
+.email p, .phone p, .query p{
+  font-size: 25px;
+  font-weight: bold; 
+}
+
+.email img, .phone img, query img{
+  width: 80px;
+  height: 80px;
+}
+
+
+.phone{
+  margin-top:20px;
+}
+.query {
+  margin-top: 20px;
+}
+
+.email img{
+  margin-right: 80px;
+}
+
+.phone img{
+  margin-right: 80px;
+}
+
+.query img{
+  margin-right: 80px;
+}
+
+.card-container1 {  
+    margin-right: 10vw;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 80vh;
+}
+
+.form-card {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #ccc;
+    width: 30%;  
+}
+
+@media (max-width: 600px) {
+  .form-card {
+    width: 100%; /* set the width of the cards to 100% for smaller screens */
+  }
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+    margin-bottom: 20px; /* Add space between each input field */
+   width: 80%;  
+   border-radius: 5px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    font-size: 1.2rem;
+}
+
+.form-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .form-heading {
+    font-size: 2rem; /* decrease font size */
+    text-align: left; /* align heading to left */
+  }
+}
+
+.contact-form input[type="submit"] {
+    display: block;
+    margin: 0 auto; /* center the button horizontally */
+    text-align: center; /* center the button vertically */
+  transition: background-color 0.3s ease-in-out;
+    padding: 15px 30px;
+  border-radius: 5px; 
+ 
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: lightblue; /* change background color on hover */
+}
+
+.center-image {
+    position: absolute; 
+    z-index: -1; 
+    top: 25vh; 
+    left: 30vw; 
+    width: 100%; 
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .center-image {
+    width: 90%; /* decrease the width of the image */
+    left: 5%; /* move the image to the right */
+  }
+}
+
+body {
+    background-image: url('bg.png'); /* set the background image */
+    background-size: cover; /* scale the background image to cover the whole page */
+    background-repeat: no-repeat; /* don't repeat the background image */
+    background-attachment: fixed; /* fix the background image in place */  
+}
+
+
+
+@media screen and (max-width: 768px) {
+  body {
+    background-size: contain; /* adjust the size of the image */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
